@@ -12,7 +12,7 @@ const processingEl = document.getElementById("processing");
 
 // console.log(days);
 let arrSelect = [];
-processingEl.innerHTML = "<option>select</option>";
+processingEl.innerHTML = "<option>Select Processing Day</option>";
 submitEl.addEventListener("click", function (e) {
   e.preventDefault();
   const arrivalTime = new Date(arrivalEl.value);
