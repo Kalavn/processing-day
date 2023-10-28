@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="arrival">Birthday:</label>
+      <input type="date" id="today" name="today" />
+      <input type="date" id="arrival" name="arrival" />
+
+      <input type="submit" id="submit" /><br /><br />
+      <select name="" id="processing">
+        <option value="0">Select</option>
+        <option value="1" data-price="79">Normal 4 days | 79 USD</option>
+        <option value="2" data-price="109">URGENT 2 days | 109 USD</option>
+        <option value="3" data-price="149">
+          SUPPER URGENT 1 days | 149 USD
+        </option>
+        <option value="4" data-price="278">Emergency 2 hours | 278 USD</option>
+      </select>
+    </form>
+    <script src="processing.js"></script>
+  </body>
+</html>
